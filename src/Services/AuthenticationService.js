@@ -22,7 +22,7 @@ class AuthenticationService
    {
     let user=sessionStorage.getItem('autheticatedUser');
     console.log(user);
-    if((user==="Jayasurya.j@qwikcilver.com"||user==="pradeep.kumar@qwikcilver.com")&&user!=null)
+    if((user==="jayasurya.j@qwikcilver.com"||user==="pradeep.kumar@qwikcilver.com")&&user!=null)
     { 
         return  true;
 
