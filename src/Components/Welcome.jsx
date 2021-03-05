@@ -9,7 +9,7 @@ export default class Welcome extends Component {
             <div className="container">
           
                    <p style={{color:"white"}}>Welcome To Qwikcilver{this.props.match.params.name}.
-                   You can Start Or Stop the Server Here <Link  to="/Chatbot">here</Link> </p>
+                  You can use our chat bot  <Link  to="/Chatbot">here</Link> </p>
             </div>
             </>
         )
