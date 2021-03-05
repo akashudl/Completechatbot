@@ -21,7 +21,7 @@ class AuthenticationService
    isUserAdmin()
    {
     let user=sessionStorage.getItem('autheticatedUser');
-    console.log(user);'
+    console.log(user);
     if((user==="jayasurya.j@qwikcilver.com"||user==="pradeep.kumar@qwikcilver.com"||user==="santosh.mv@qwikcilver.com"||user==="aravind.rajasekhar@qwikcilver.com")&&user!=null)
     { 
         return  true;
