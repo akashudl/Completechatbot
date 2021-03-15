@@ -10,6 +10,7 @@ export default class Googlelogin extends Component {
         photourl:""
     }
     responseGoogle = (response) => {
+        console.log(response);
         const check="@qwikcilver.com";
         this.setState({dispalyname:response.profileObj.givenName})
         this.setState({username:response.profileObj.email})
