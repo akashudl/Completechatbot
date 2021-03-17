@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 import './App.css';
-import  LoginComponent from "./Components/LoginComponent";
+//import  LoginComponent from "./Components/LoginComponent";
 import {BrowserRouter as Router,Route,Switch} from "react-router-dom"
-import GoogleapiSignin from "./Components/GoogleapiSignin";
+//import GoogleapiSignin from "./Components/GoogleapiSignin";
 import GoogleLogin from "./Components/Googlelogin";
 import  Welcome from "./Components/Welcome";
-import ChatbotComponet from "./Components/ChatbotComponet";
+//import ChatbotComponet from "./Components/ChatbotComponet";
 import ErrorComponent from "./Components/ErrorComponent";
 import AuthorizedLogin from "./Components/AuthorizedLoging";
 import HeaderComponent from "./Components/HeaderComponent";
@@ -13,10 +13,10 @@ import "./bootstrap.css";
 import Authenticatedroute from "./Components/Authenticatedroute";
 import LogoutComponent from "./Components/Logoutcomponet";
 import LexChatConfig from  "./Components/LexChartConfig";
-import HeadeNew from "./Components/HeadeNew";
-import Footer from "./Components/Footer";
+//import HeadeNew from "./Components/HeadeNew";
+//import Footer from "./Components/Footer";
 import Admin from "./Components/Admin";
-import Login from "./Components/LoginCom"
+//import Login from "./Components/LoginCom"
 import UserAdmin from "./Components/Useradmin";
 
 
