@@ -5,7 +5,7 @@ import AuthenticationService from "../Services/AuthenticationService"
 import { withRouter } from 'react-router';
 import {Avatar} from "@material-ui/core";
 import firebase from "../Services/firebase.js";
-import auth from "../Services/firebase.js";
+//import auth from "../Services/firebase.js";
 class HeaderComponent extends Component {
   constructor(props)
   {  super(props)   
