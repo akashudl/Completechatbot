@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {db,auth} from "../Services/firebase";
+import {db} from "../Services/firebase";
 import "../bootstrap.css";
 export default class Admin extends Component {
     state ={
