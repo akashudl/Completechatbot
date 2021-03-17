@@ -30,7 +30,6 @@ export default class NewLogin extends Component {
   }
  
     render() {
-        const { user } = this.state;
         return (
             <div className="Center">
             
