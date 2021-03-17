@@ -49,12 +49,7 @@ class LexChatBot extends React.Component {
     
       
       inputFieldText.locked = true;
-      db.collection("CommandInfo").add({
-        Email:firebase.auth().currentUser.email,
-        CommandTyped:inputField,
-        
-      })
-
+    
       // send it to the Lex runtime
       var params = {
         botAlias: '$LATEST',
