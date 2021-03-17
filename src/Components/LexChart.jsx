@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import AWS from 'aws-sdk';
 import "./Chatbot.css";
 import firebase from "../Services/firebase.js";
-import { Redirect, Route } from 'react-router-dom';
+import { Redirect} from 'react-router-dom';
 import {db} from "../Services/firebase.js";
 import AuthenticationService from "../Services/AuthenticationService"
 class LexChatBot extends React.Component {
